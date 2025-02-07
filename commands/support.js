@@ -9,10 +9,10 @@ module.exports = {
     options: [],
     run: async (client, interaction, lang) => {
         try {
-            const supportServerLink = "https://discord.gg/xQF9f9yUEM";
-            const githubLink = "https://github.com/GlaceYT";
-            const replitLink = "https://replit.com/@GlaceYT";
-            const youtubeLink = "https://www.youtube.com/@GlaceYT";
+            const supportServerLink = "https://github.com/CodeMaste001";
+            const githubLink = "https://github.com/CodeMaste001";
+            const replitLink = "";
+            const youtubeLink = "https://github.com/CodeMaste001";
 
             const embed = new EmbedBuilder()
                 .setColor('#b300ff')
@@ -27,7 +27,7 @@ module.exports = {
                     .replace("{replitLink}", replitLink)
                     .replace("{youtubeLink}", youtubeLink)
                 )
-                .setImage('https://cdn.discordapp.com/attachments/1113800537402527903/1236803979996958740/11.png?ex=663956f7&is=66380577&hm=3b3c19a11adcb979517a133f2907f671305d23f1f5092cf7df043e6d5cab07bc&')
+                .setImage('https://cdn.discordapp.com/attachments/1337461320500383779/1337461970449731696/the-lego-movie-37dollars.gif?ex=67a78806&is=67a63686&hm=aae492e5d30b5f1bcb873b16fc5958d97d25bd15fb0fa52e7e5a6ded5c3e61e2&')
                 .setTimestamp();
 
             await interaction.reply({ embeds: [embed] });
